@@ -1,45 +1,25 @@
-/*
-------- SNAKE 2 ------ GRAPHICS.H VERSION -------
-20/7/2017:
-- Snake2 begin
-- Build Graphic Windows
-- Build some develop function: showGrid, showCross, showInfo
-
-*/
-#ifndef DECLARATION_H_INCLUDED
-    #include "Declaration.h"
-#endif // DECLARATION_H_INCLUDED
-
-#ifndef GRAPHICAPI_H_INCLUDED
-    #include "GraphicAPI.h"
-#endif // CONSOLEAPI_H_INCLUDED
-
-#ifndef DEVELOP_H_INCLUDED
-    #include "Develop.h"
-#endif // CONSOLEAPI_H_INCLUDED
-
-using namespace std;
+#include "Declaration.h"
+#include "GraphicAPI.h"
+#include "Develop.h"
+#include "GamePlay.h"
+#include "Screens.h"
 
 //int gd = DETECT, gm;
-
-
-
-//-------------------------//
-
-
-
-
-
-
 
 //-------------------------//
 
 int main()
 {
+    //ShowWindow(FindWindowA("ConsoleWindowClass", NULL), false); // Dont open the console --> Just remove the comment when build the program
+
     setup();
     develop();
+    mainMenu();
+
 
     getch();
     closegraph();
+
+    //FreeConsole(); // The same with ShowWindow
     return 0;
 }

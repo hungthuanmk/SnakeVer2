@@ -9,3 +9,18 @@
 21/7/2017:
 - Divided into small file
 - Sound added
+
+27/7/2017:
+- Move some function of ver1 to ver2 (a lot of bug)
+
+28/7/2017:
+- Bug eliminated (almost)
+
+29/7/2017:
+- StartScreen sound added
+- Score added
+- Main Menu added
+- Game logo added
+
+30/7/2017
+- GameOver screen added
