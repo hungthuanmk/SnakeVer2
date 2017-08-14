@@ -24,3 +24,21 @@
 
 30/7/2017
 - GameOver screen added
+
+1/8/2017
+- Modify code to class
+
+2/8/2017
+- Map added
+- Complete modified to class
+- Bug fixed
+
+3/8/2017
+- Map improve
+- Gameplay improve
+- Instruction added
+- Game loop enabled
+
+4/8/2017
+- PRESENTATION DAY!!!!
+- RIP US!
